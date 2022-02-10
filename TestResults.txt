@@ -1,0 +1,18 @@
+Username (not for points): mwcxp5
+big_matrix_test.cpp: fail
+build_matrix_test.cpp: Probably crashed
+false_positive_test.cpp: fail
+fill_matrix_test.cpp: fail
+number_handling_test.cpp: fail
+search_backwards_test.cpp: fail
+search_down_left_test.cpp: fail
+search_down_right_test.cpp: fail
+search_down_test.cpp: fail
+search_foward_test.cpp: fail
+search_up_left_test.cpp: fail
+search_up_right_test.cpp: fail
+search_up_test.cpp: fail
+word_does_not_exist_test.cpp: fail
+Bytes definitely lost (memory leak) (0 is perfect): 160
+Username accurate (0 good, 1 bad): 1
+Main diff (0 is perfect): 172
