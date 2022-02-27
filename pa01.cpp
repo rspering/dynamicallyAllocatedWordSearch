@@ -29,7 +29,7 @@ int main()
     cout << "Searching for \"" << word << "\" in matrix " << i << " yields:" << endl;
     if (solution[0] == -1)
     {
-      cout << "The pattern was not found" << endl;
+      cout << "The pattern was not found." << endl;
     }
     else
     {
