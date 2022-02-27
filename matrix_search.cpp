@@ -98,7 +98,6 @@ void matrix_search(int sol[], string word, int rows, int cols, char **matrix)
               break;
             }
           }
-          
         }
       }
     }

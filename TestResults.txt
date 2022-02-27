@@ -1,0 +1,18 @@
+Username (not for points): rjstrd
+big_matrix_test.cpp: pass
+build_matrix_test.cpp: pass
+false_positive_test.cpp: pass
+fill_matrix_test.cpp: pass
+number_handling_test.cpp: pass
+search_backwards_test.cpp: pass
+search_down_left_test.cpp: pass
+search_down_right_test.cpp: pass
+search_down_test.cpp: pass
+search_foward_test.cpp: pass
+search_up_left_test.cpp: pass
+search_up_right_test.cpp: pass
+search_up_test.cpp: pass
+word_does_not_exist_test.cpp: pass
+Bytes definitely lost (memory leak) (0 is perfect): 0
+Username accurate (0 good, 1 bad): 0
+Main diff (0 is perfect): 172
