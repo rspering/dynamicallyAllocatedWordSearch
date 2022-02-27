@@ -8,6 +8,7 @@ int main()
 {
   short int numGames;
   cin >> numGames;
+  cout << endl;
 
   for(int i = 0; i < numGames; i++)
   {
@@ -40,8 +41,6 @@ int main()
 
     delete_matrix(rowInput, wordSearchMatrix);
   }
-
-  
 
   return 0;
 }
