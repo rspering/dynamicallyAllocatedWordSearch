@@ -88,7 +88,7 @@ void matrix_search(int sol[], string word, int rows, int cols, char **matrix)
           {
             //(starting spot) +  (current letter being checked)*(direction array[direction index])
             // also makes sure it never searches outside of the matrix's bounds
-            if ((i + (k * yDirections[d])) >= 0 && (j + (k * xDirections[d])) >= 0 && matrix[i + (k * yDirections[d])][j + (k * xDirections[d])] == word[k] && (i + (k * yDirections[d])) < rows && (j + (k * xDirections[d])) < cols)
+            if ((i + (k * yDirections[d])) >= 0 && (j + (k * xDirections[d])) >= 0 && (i + (k * yDirections[d])) < rows && ((j + (k * xDirections[d])) < cols) && matrix[i + (k * yDirections[d])][j + (k * xDirections[d])] == word[k] )
             {
               //if k is able to reach the length of the word confirms that it checked and matched each letter
               if (k == length - 1)
