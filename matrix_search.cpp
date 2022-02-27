@@ -63,27 +63,34 @@ void delete_matrix(int rows, char **matrix)
 
 void matrix_search(int sol[], string word, int rows, int cols, char **matrix)
 {
+  //arrays define directions
   int length = word.length();
   int xDirections[8] = {-1, 0, 1, -1, 1, -1, 0, 1};
   int yDirections[8] = {-1, -1, -1, 0, 0, 1, 1, 1};
-  
+  //sets each index in sol to -1 by default
   for(int i = 0; i < 4; i++)
   {
     sol[i] = -1;
   }
-
+  //for each row, col combination
   for (int i = 0; i < rows; i++)
   {
     for (int j = 0; j < cols; j++)
     {
+      //if first letter of word is found
       if (matrix[i][j] == word[0])
       {
+        //for each direction index
         for (int d = 0; d < 8; d++)
         {
+          //for each letter in the word being searched
           for(int k = 1; k < length; k++)
           {
+            //(starting spot) +  (current letter being checked)*(direction array[direction index])
+            // also makes sure it never searches outside of the matrix's bounds
             if ((i + (k * yDirections[d])) >= 0 && (j + (k * xDirections[d])) >= 0 && matrix[i + (k * yDirections[d])][j + (k * xDirections[d])] == word[k] && (i + (k * yDirections[d])) < rows && (j + (k * xDirections[d])) < cols)
             {
+              //if k is able to reach the length of the word confirms that it checked and matched each letter
               if (k == length - 1)
               {
                 sol[0] = i;
