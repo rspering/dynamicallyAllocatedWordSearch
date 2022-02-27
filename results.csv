@@ -1,2 +1,2 @@
 Username (not for points),big_matrix_test.cpp,build_matrix_test.cpp,false_positive_test.cpp,fill_matrix_test.cpp,number_handling_test.cpp,search_backwards_test.cpp,search_down_left_test.cpp,search_down_right_test.cpp,search_down_test.cpp,search_foward_test.cpp,search_up_left_test.cpp,search_up_right_test.cpp,search_up_test.cpp,word_does_not_exist_test.cpp,Bytes definitely lost (memory leak) (0 is perfect),"Username accurate (0 good, 1 bad)",Main diff (0 is perfect)
-rjstrd,pass,pass,pass,pass,pass,pass,pass,pass,pass,pass,pass,pass,pass,pass,0,0,172
+rjstrd,pass,pass,pass,pass,pass,pass,pass,pass,pass,pass,pass,pass,pass,pass,0,0,0

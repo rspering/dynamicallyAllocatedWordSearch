@@ -15,4 +15,4 @@ search_up_test.cpp: pass
 word_does_not_exist_test.cpp: pass
 Bytes definitely lost (memory leak) (0 is perfect): 0
 Username accurate (0 good, 1 bad): 0
-Main diff (0 is perfect): 172
+Main diff (0 is perfect): 0
