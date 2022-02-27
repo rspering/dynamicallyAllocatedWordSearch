@@ -8,7 +8,6 @@ int main()
 {
   short int numGames;
   cin >> numGames;
-  cout << endl;
 
   for(int i = 0; i < numGames; i++)
   {
