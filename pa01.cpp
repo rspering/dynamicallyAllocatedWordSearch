@@ -30,13 +30,13 @@ int main()
     if (solution[0] == -1)
     {
       cout << "The pattern was not found." << endl;
+      cout << endl;
     }
     else
     {
       cout << "Start pos:(" << solution[0] << ", " << solution[1] << ") to End pos:(" << solution[2] << ", " << solution[3] << ")" << endl;
+      cout << endl;
     }
-    
-    //print_matrix(rowInput, colInput, wordSearchMatrix);
 
     delete_matrix(rowInput, wordSearchMatrix);
   }
